@@ -45,10 +45,48 @@
 <body>
     <h1>Forulario para registrar mascotas</h1>
     <form>
-        <label for="fname" placeholder="nombre"></label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
+        <label for="lname"></label><br>
+        <input type="text" placeholder="nombre">
+        <input type="date" id="lname" name="lname">
+        <select>
+            <option value="Seleccione región">Seleccione región</option>
+            <option value="España">España</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Italia">Italia</option>
+            <option value="Francia">Francia</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <input type="button" name="Enviar datos" id="Enviar datos" style="background-color: #45a050;">
+    </form>
+
+    <h1>Formulario para registrar alumnos</h1>
+    <form>
+        <b>Nombre</b>
+        <label for="lname"></label><br>
+        <input type="text" placeholder="nombre">
+        <b>Primer apellido</b>
+        <label for="lname"></label><br>
+        <input type="text" placeholder="primer apellido">
+        <b>Segundo apellido</b>
+        <label for="lname"></label><br>
+        <input type="text" placeholder="Segundo apellido">
+        <b>Datos del tutor</b>
+        <label for="lname"></label><br>
+        <input type="text" placeholder="nombre y apellido del tutor/a">
+        <b>Edad</b>
+        <input type="date" id="lname" name="lname">
+        <b>Estudios de procedencia</b>
+        <select>
+            <option value="Seleccione estudios de procedencia">Seleccione estudios de procedencia</option>
+            <option value="España">España</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Italia">Italia</option>
+            <option value="Francia">Francia</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <input type="button" name="Enviar datos del alumno" style="background-color: #45a050;">
     </form>
 </body>
 
